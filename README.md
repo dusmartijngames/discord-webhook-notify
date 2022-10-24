@@ -1,5 +1,7 @@
 # Discord Webhook Notify
 
+# [ORIGINAL REPO BY RJSTONE](https://github.com/rjstone/discord-webhook-notify)
+
 This sends a notification to discord using a webhook URL. It is written in JavaScript so **it will work with windows, osx, and linux execution environments**.
 
 To use this, get on Discord and create a new webhook. Then get on GitHub, go into your project settings, and add a new Secret called `DISCORD_WEBHOOK`. In your workflow YAML, set `webhookUrl` as follows: `webhookUrl: ${{ secrets.DISCORD_WEBHOOK }}`. You must set webhookUrl this way for each invocation of the action.
